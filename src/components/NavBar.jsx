@@ -15,9 +15,17 @@ const NavBar = () => {
         rel="noopener noreferrer"
         className="hover:text-gray-600"
       >
-        <FaGithub />
+       <FaGithub />
       </a>
-            <FaLinkedin />
+            {/* <FaLinkedin /> */}
+            <a
+        href="https://www.linkedin.com/in/nwafor-emmanuel-b82733217/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-gray-600"
+      >
+        <FaLinkedin />
+      </a>
             <FaSquareTwitter />
             <FaInstagram />
         </div>
