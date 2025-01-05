@@ -18,7 +18,7 @@ const NavBar = () => {
        <FaGithub />
       </a>
             {/* <FaLinkedin /> */}
-            <a
+      <a
         href="https://www.linkedin.com/in/nwafor-emmanuel-b82733217/"
         target="_blank"
         rel="noopener noreferrer"
@@ -26,13 +26,12 @@ const NavBar = () => {
       >
         <FaLinkedin />
       </a>
-            {/* <FaSquareTwitter /> */}
-            <a
+        <a
         href="https://www.instagram.com/nwaforce/"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-gray-600"
-      >
+         >
        <FaInstagram />
       </a>
            <FaSquareTwitter />
