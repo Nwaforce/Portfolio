@@ -8,17 +8,14 @@ export const HERO_CONTENT = `I am a passionate Frontend Developer with 3 years o
 export const ABOUT_TEXT = `I am a dedicated and versatile Frontend Developer with 3 years of professional experience, passionate about building efficient and user-friendly web applications. Over the course of my career, I’ve worked with a range of frontend technologies, including React, Next.js, HTML, CSS, and JavaScript. My journey in web development began with a deep curiosity about how things work, and over time, it has evolved into a commitment to creating seamless and engaging user experiences. I thrive in collaborative environments, tackling complex UI challenges, and always look for new ways to improve performance and usability. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
 
 export const EXPERIENCES = [
-
   {
-    "year": " 2023 - Present",
-    "role": "Frontend Development Mentor",
-    "company": "Genesys Tech Hub",
-    "description": "Mentored a group of tech enthusiasts on frontend development, focusing on React, JavaScript, HTML, and CSS. Guided them through building projects, emphasizing best practices, component-based architecture, and responsive design. Introduced and explained the use of UCML diagrams for structuring and planning the projects. Facilitated Scrum ceremonies, such as sprint planning and retrospectives, to promote agile development practices.",
-    "technologies": ["React", "JavaScript", "HTML", "CSS", "Lucidchart", "Scrum"]
+    year: " 2023 - Present",
+    role: "Frontend Development Mentor",
+    company: "Genesys Tech Hub",
+    description:
+      "Mentored a group of tech enthusiasts on frontend development, focusing on React, JavaScript, HTML, and CSS. Guided them through building projects, emphasizing best practices, component-based architecture, and responsive design. Introduced and explained the use of UCML diagrams for structuring and planning the projects. Facilitated Scrum ceremonies, such as sprint planning and retrospectives, to promote agile development practices.",
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Lucidchart", "Scrum"],
   },
-
-
-
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
@@ -33,10 +30,6 @@ export const EXPERIENCES = [
     description: `Designed and developed user interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Javascript", "React.js"],
   },
-
-  
-  
-
   // {
   //   year: "2021 - 2022",
   //   role: "Full Stack Developer",
