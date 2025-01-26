@@ -1,6 +1,6 @@
 import React from 'react'
 import {PROJECTS} from "../constants"
-import { div } from 'framer-motion/client'
+// import { div } from 'framer-motion/client'
 const Project = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -9,9 +9,13 @@ const Project = () => {
         {PROJECTS.map((project, index) => (
         <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
           <div className='w-full lg:w-1/4'>
-          <img src={Project.images} alt={Project.title} /></div>
+          <img src={project.image}
+          width={150}
+          height={150}
+          alt={Project.title}
+          className='mb-6' /></div>
           </div>
-        )}
+        ))}
       </div>
     </div>
   )
