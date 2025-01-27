@@ -14,6 +14,9 @@ const Project = () => {
           height={150}
           alt={Project.title}
           className='mb-6' /></div>
+          <div className='w-full max-w-full lg:w-3/4'>
+          <h6 className='mb-2 font-semibold'>{project.title}</h6>
+          </div>
           </div>
         ))}
       </div>
