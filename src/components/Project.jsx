@@ -14,7 +14,7 @@ const Project = () => {
                 width={150}
                 height={150}
                 alt={Project.title} 
-                className="mb-6"
+                className="mb-6 rounded"
               />
             </div>
             <div className="w-full max-w-full lg:w-3/4">
