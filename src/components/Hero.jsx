@@ -22,7 +22,7 @@ const Hero = () => {
             <motion.h1
               variants={container(0)}
               initial="hidden"
-             animate="visible"
+              animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16"
             >
               Nwafor Emmanuel
@@ -49,10 +49,12 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img
-            initial={{x: 100, opacity: 0}}
-            animate={{x: 0, opacity: 1}}
-            transition={{duration: 1, delay: 1.5}}
-             src={profilePic} alt="Nwafor Emmanuel" />
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.5 }}
+              src={profilePic}
+              alt="Nwafor Emmanuel"
+            />
           </div>
         </div>
       </div>

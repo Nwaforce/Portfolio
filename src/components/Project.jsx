@@ -13,7 +13,7 @@ const Project = () => {
                 src={project.image}
                 width={150}
                 height={150}
-                alt={Project.title} 
+                alt={Project.title}
                 className="mb-6 rounded"
               />
             </div>
