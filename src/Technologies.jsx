@@ -5,7 +5,7 @@ import { SiMongodb } from "react-icons/si";
 // import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 // import { BiLogoPostgresql } from "react-icons/bi";
-import {motion} from "framer-motion"; 
+import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -14,7 +14,7 @@ const iconVariants = (duration) => ({
     transition: {
       duration: duration,
       ease: "linear",
-      repeat: Infinity,  
+      repeat: Infinity,
       repeatType: "reverse",
     },
   },
@@ -33,11 +33,12 @@ const Technologies = () => {
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
-        <motion.div 
-       variants={iconVariants(3)}
-       initial="initial"
-       animate="animate" 
-        className="rounded-2xl border-4 border-neutral-800 p-4">
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <TbBrandNextjs className="text-7xl" />
         </motion.div>
         {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -47,10 +48,11 @@ const Technologies = () => {
           <DiRedis className="text-7xl text-red-700" />
         </div> */}
         <motion.div
-        variants={iconVariants(2)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
         {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
