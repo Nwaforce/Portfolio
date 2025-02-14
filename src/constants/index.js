@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project0 from "../assets/projects/project-2.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with 3 years of hands-on experience in building scalable and high-performance web applications. Specializing in technologies like React and Next.js, I focus on creating innovative, user-centric solutions that drive business growth and deliver exceptional user experiences. My goal is to leverage my expertise in frontend development to build intuitive, high-quality products that meet both user needs and business objectives.`;
 
@@ -56,10 +57,9 @@ export const PROJECTS = [
   },
   {
     title: "Expense Tracker",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    image: project0,
+    "description": "A web application for tracking expenses, managing transactions, and monitoring financial activities.",
+    "technologies": ["Next.js 15", "Prisma", "Neon PostgreSQL", "Clerk", "TypeScript", "React-Toastify"]
   },
   {
     title: "Portfolio Website",
