@@ -54,13 +54,13 @@ export const PROJECTS = [
       "A fully functional web-app for Therapist and their clients and user authentication.",
     technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
   },
-  // {
-  //   title: "Task Management App",
-  //   image: project2,
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  // },
+  {
+    title: "Expense Tracker",
+    image: project2,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+  },
   {
     title: "Portfolio Website",
     image: project3,
