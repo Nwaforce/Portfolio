@@ -58,9 +58,8 @@ export const PROJECTS = [
   {
     title: "Expense Tracker",
     image: project0,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    "description": "A web application for tracking expenses, managing transactions, and monitoring financial activities.",
+    "technologies": ["Next.js 15", "Prisma", "Neon PostgreSQL", "Clerk", "TypeScript", "React-Toastify"]
   },
   {
     title: "Portfolio Website",
