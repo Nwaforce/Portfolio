@@ -18,8 +18,14 @@ const Project = () => {
               />
             </div>
             <div className="w-full max-w-full lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+            <a
+                  href={project.link} // Makes the title a clickable link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-500 no-underline hover:no-underline"
+                >
+                  {project.title}
+                </a>              <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
