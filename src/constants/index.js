@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project0 from "../assets/projects/project-2.png";
+import kalmly from "../assets/projects/kalmly.png";
+import { a, button } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with 3 years of hands-on experience in building scalable and high-performance web applications. Specializing in technologies like React and Next.js, I focus on creating innovative, user-centric solutions that drive business growth and deliver exceptional user experiences. My goal is to leverage my expertise in frontend development to build intuitive, high-quality products that meet both user needs and business objectives.`;
 
@@ -50,16 +52,18 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Kalmly",
-    image: project1,
+    image: kalmly,
     description:
       "A fully functional web-app for Therapist and their clients and user authentication.",
     technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
+    link: "https://kalmly.vercel.app/",
   },
   {
     title: "Expense Tracker",
     image: project0,
     "description": "A web application for tracking expenses, managing transactions, and monitoring financial activities.",
-    "technologies": ["Next.js 15", "Prisma", "Neon PostgreSQL", "Clerk", "TypeScript", "React-Toastify"]
+    "technologies": ["Next.js 15", "Prisma", "Neon PostgreSQL", "Clerk", "TypeScript", "React-Toastify"],
+    link: "https://expense-tracker-five-phi-20.vercel.app/",
   },
   {
     title: "Portfolio Website",
@@ -67,6 +71,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React"],
+    link: "https://expensetracker.com",
   },
   //   {
   //     title: "Blogging Platform",
@@ -78,7 +83,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "11 Abuja Street federal Housing Tran Ekulu Enugu Nigeria ",
+  address: "Enugu Nigeria",
   phoneNo: "+234 8167 5497 03 ",
   email: "emmanuelnwaforce@gmail.com",
 };
