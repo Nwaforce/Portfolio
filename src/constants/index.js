@@ -61,8 +61,16 @@ export const PROJECTS = [
   {
     title: "Expense Tracker",
     image: project0,
-    "description": "A web application for tracking expenses, managing transactions, and monitoring financial activities.",
-    "technologies": ["Next.js 15", "Prisma", "Neon PostgreSQL", "Clerk", "TypeScript", "React-Toastify"],
+    description:
+      "A web application for tracking expenses, managing transactions, and monitoring financial activities.",
+    technologies: [
+      "Next.js 15",
+      "Prisma",
+      "Neon PostgreSQL",
+      "Clerk",
+      "TypeScript",
+      "React-Toastify",
+    ],
     link: "https://expense-tracker-five-phi-20.vercel.app/",
   },
   {
