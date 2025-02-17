@@ -79,7 +79,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React"],
-    link: "https://expensetracker.com",
+    link: "https://portfolio-one-topaz-74.vercel.app/",
   },
   //   {
   //     title: "Blogging Platform",
