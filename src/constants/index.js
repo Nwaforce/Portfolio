@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project0 from "../assets/projects/project-2.png";
 import kalmly from "../assets/projects/kalmly.png";
+import manny from "../assets/projects/manny.png";
 import { a, button } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with 3 years of hands-on experience in building scalable and high-performance web applications. Specializing in technologies like React and Next.js, I focus on creating innovative, user-centric solutions that drive business growth and deliver exceptional user experiences. My goal is to leverage my expertise in frontend development to build intuitive, high-quality products that meet both user needs and business objectives.`;
@@ -75,7 +76,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: manny,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React"],
