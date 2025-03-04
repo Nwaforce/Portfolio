@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import Loader from "./components/Loader";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -5,7 +7,21 @@ import Technologies from "./Technologies";
 import Experience from "./Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+
 const App = () => {
+  // State for loading screen
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate fake loading process
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4000);
+  }, []);
+
+  // Show loader if still loading
+  if (isLoading) return <Loader />;
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full">
