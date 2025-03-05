@@ -77,12 +77,12 @@ export const PROJECTS = [
   },
   {
     title: "Admin Dashboard",
-    image: Dashboard,  // Ensure 'manny' is correctly imported or defined
+    image: Dashboard, // Ensure 'manny' is correctly imported or defined
     description:
       "A modern admin dashboard with a sleek and responsive UI for data management and visualization.",
     technologies: ["React", "Recharts", "Vite"],
     link: "https://admin-panel-1d1k.vercel.app/",
-  }
+  },
   //   {
   //     title: "Blogging Platform",
   //     image: project4,

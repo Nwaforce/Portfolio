@@ -37,7 +37,9 @@ const Loader = () => {
           </path>
         </svg>
         {/* Slang Text */}
-        <div className="mt-4 text-lg font-semibold text-white">Hold Up Wait a Minute... 😎</div>
+        <div className="mt-4 text-lg font-semibold text-white">
+          Hold Up Wait a Minute... 😎
+        </div>
       </div>
     </div>
   );
