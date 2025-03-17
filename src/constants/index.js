@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+// import project1 from "../assets/projects/project-1.jpg";
+// import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project0 from "../assets/projects/project-2.png";
@@ -77,7 +77,7 @@ export const PROJECTS = [
   },
   {
     title: "Admin Dashboard",
-    image: Dashboard, // Ensure 'manny' is correctly imported or defined
+    image: Dashboard, 
     description:
       "A modern admin dashboard with a sleek and responsive UI for data management and visualization.",
     technologies: ["React", "Recharts", "Vite"],
