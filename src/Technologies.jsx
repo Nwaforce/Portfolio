@@ -7,6 +7,7 @@ import { FaNodeJs } from "react-icons/fa";
 // import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { SiTypescript } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -68,6 +69,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaNodeJs className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPrisma className="text-7xl text-cyan-400" />
         </motion.div>
         {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <BiLogoPostgresql className="text-7xl text-sky-700" />
