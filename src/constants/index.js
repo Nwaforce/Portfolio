@@ -83,6 +83,15 @@ export const PROJECTS = [
     technologies: ["React", "Recharts", "Vite"],
     link: "https://admin-panel-1d1k.vercel.app/",
   },
+//   {
+//     "title": "WhatBytes Skill Test Dashboard",
+//     "image": Dashboard, 
+//     "description": 
+//       "A sleek and responsive dashboard for skill assessment, data visualization, and performance tracking. Built with Next.js, TypeScript, Tailwind CSS, Recharts, and Zustand for state management.",
+//     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Zustand"],
+//     "link": "https://what-bytes-task-emma.vercel.app/"
+// }
+ 
   //   {
   //     title: "Blogging Platform",
   //     image: project4,
