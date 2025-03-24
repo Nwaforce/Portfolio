@@ -7,7 +7,7 @@ import kalmly from "../assets/projects/kalmly.png";
 // import manny from "../assets/projects/manny.png";
 import Dashboard from "../assets//projects/Dashboard.png";
 // import { a, button } from "framer-motion/client";
-import Skill from "../assets/projects/skill"
+import Skill from "../assets/projects/Skill.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with 3 years of hands-on experience in building scalable and high-performance web applications. Specializing in technologies like React and Next.js, I focus on creating innovative, user-centric solutions that drive business growth and deliver exceptional user experiences. My goal is to leverage my expertise in frontend development to build intuitive, high-quality products that meet both user needs and business objectives.`;
 
@@ -86,7 +86,7 @@ export const PROJECTS = [
   },
   {
     "title": "WhatBytes Skill Test Dashboard",
-    "image": Dashboard, 
+    "image": Skill, 
     "description": 
       "A sleek and responsive dashboard for skill assessment, data visualization, and performance tracking. Built with Next.js, TypeScript, Tailwind CSS, Recharts, and Zustand for state management.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Zustand"],
