@@ -45,7 +45,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-           <SiTypescript className="text-7xl text-blue-600" />
+          <SiTypescript className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
