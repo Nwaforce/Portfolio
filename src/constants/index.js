@@ -89,13 +89,7 @@ export const PROJECTS = [
     image: Skill,
     description:
       "A sleek and responsive dashboard for skill assessment, data visualization, and performance tracking. Built with Next.js, TypeScript, Tailwind CSS, Recharts, and Zustand for state management.",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Recharts",
-      "Zustand",
-    ],
+    technologies: ["Next.js","TypeScript","Tailwind CSS","Recharts"],
     link: "https://what-bytes-task-emma.vercel.app/",
   },
 
