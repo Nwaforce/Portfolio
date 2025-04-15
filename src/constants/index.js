@@ -94,11 +94,11 @@ export const PROJECTS = [
   },
 
     {
-      title: "Blogging Platform",
+      title: "Browser-extension-manager-U",
       image: project4,
       description:
         "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      technologies: [React, CSS],
     },
 ];
 
