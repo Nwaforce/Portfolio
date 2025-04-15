@@ -89,17 +89,17 @@ export const PROJECTS = [
     image: Skill,
     description:
       "A sleek and responsive dashboard for skill assessment, data visualization, and performance tracking. Built with Next.js, TypeScript, Tailwind CSS, Recharts, and Zustand for state management.",
-    technologies: ["Next.js","TypeScript","Tailwind CSS","Recharts"],
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Recharts"],
     link: "https://what-bytes-task-emma.vercel.app/",
   },
 
-  //   {
-  //     title: "Blogging Platform",
-  //     image: project4,
-  //     description:
-  //       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  //   },
+    {
+      title: "Blogging Platform",
+      image: project4,
+      description:
+        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    },
 ];
 
 export const CONTACT = {
