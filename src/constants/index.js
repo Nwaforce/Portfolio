@@ -93,13 +93,13 @@ export const PROJECTS = [
     link: "https://what-bytes-task-emma.vercel.app/",
   },
 
-    {
-      title: "Browser-extension-manager-U",
-      image: project4,
-      description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-      technologies: [React, CSS],
-    },
+    // {
+    //   title: "Browser-extension-manager-U",
+    //   image: project4,
+    //   description:
+    //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    //   technologies: [React, CSS],
+    // },
 ];
 
 export const CONTACT = {
