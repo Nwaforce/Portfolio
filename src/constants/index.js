@@ -101,7 +101,7 @@ export const PROJECTS = [
     //   technologies: [React, CSS],
     // },
 ];
-
+ 
 export const CONTACT = {
   address: "Nigeria",
   phoneNo: "+234 8167 5497 03 ",
