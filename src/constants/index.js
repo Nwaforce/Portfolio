@@ -99,7 +99,7 @@ export const PROJECTS = [
     image: Browser,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: [React, CSS],
+    technologies: ["React", "CSS"],
     link:  "https://what-bytes-task-emma.vercel.app/",
   },
 ];
