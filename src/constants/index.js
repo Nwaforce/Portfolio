@@ -2,6 +2,7 @@
 // import project2 from "../assets/projects/project-2.jpg";
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
+import Browser from "../assets/projects/Browser.png";
 import project0 from "../assets/projects/project-2.png";
 import kalmly from "../assets/projects/kalmly.png";
 // import manny from "../assets/projects/manny.png";
@@ -93,13 +94,14 @@ export const PROJECTS = [
     link: "https://what-bytes-task-emma.vercel.app/",
   },
 
-  // {
-  //   title: "Browser-extension-manager-U",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: [React, CSS],
-  // },
+  {
+    title: "Browser Extension",
+    image: Browser,
+    description:
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    technologies: [React, CSS],
+    link: "https://what-bytes-task-emma.vercel.app/",
+  },
 ];
 
 export const CONTACT = {
