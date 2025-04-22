@@ -27,7 +27,7 @@ const NavBar = () => {
           <FaLinkedin />
         </a>
         <a
-          // href="https://www.instagram.com/nwaforce/"
+          href="https://www.instagram.com/nwaforce/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-600"
@@ -35,8 +35,8 @@ const NavBar = () => {
           <FaInstagram />
         </a>
         <a
-          // href="https://www.instagram.com/nwaforce/"
-          target="_blank"
+          href="https://x.com/nwaforce2"
+         target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-600"
         >
