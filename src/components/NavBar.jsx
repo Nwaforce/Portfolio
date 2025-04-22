@@ -8,7 +8,7 @@ const NavBar = () => {
         {/* <img src={logo} alt="logo" /> */}
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        {/* <FaGithub /> */}
+
         <a
           href="https://github.com/Nwaforce"
           target="_blank"
@@ -17,8 +17,8 @@ const NavBar = () => {
         >
           <FaGithub />
         </a>
-        {/* <FaLinkedin /> */}
-        <a
+ 
+         <a
           href="https://www.linkedin.com/in/nwafor-emmanuel-b82733217/"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const NavBar = () => {
           <FaLinkedin />
         </a>
         <a
-          // href="https://www.instagram.com/nwaforce/"
+          href="https://www.instagram.com/nwaforce/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-600"
@@ -35,8 +35,8 @@ const NavBar = () => {
           <FaInstagram />
         </a>
         <a
-          // href="https://www.instagram.com/nwaforce/"
-          target="_blank"
+          href="https://x.com/nwaforce2"
+         target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-600"
         >
