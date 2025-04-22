@@ -19,7 +19,7 @@ const Project = () => {
             </div>
             <div className="w-full max-w-full lg:w-3/4">
               <a
-                href={project.link} // Makes the title a clickable link
+                href={project.link} 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-500 no-underline hover:no-underline"

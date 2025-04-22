@@ -98,7 +98,7 @@ export const PROJECTS = [
     title: "Browser Extension",
     image: Browser,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Frontend Mentor Challenge",
     technologies: ["React", "CSS"],
     link: "https://what-bytes-task-emma.vercel.app/",
   },
