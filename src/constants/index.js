@@ -5,7 +5,7 @@
 import Browser from "../assets/projects/Browser.png";
 import project0 from "../assets/projects/project-2.png";
 import kalmly from "../assets/projects/kalmly.png";
-// import manny from "../assets/projects/manny.png";
+
 import Dashboard from "../assets//projects/Dashboard.png";
 // import { a, button } from "framer-motion/client";
 import Skill from "../assets/projects/Skill.png";
