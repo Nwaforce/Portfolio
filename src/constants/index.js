@@ -16,7 +16,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Frontend Developer wit
 export const EXPERIENCES = [
   {
     year: " 2023 - Present",
-    role: "Frontend Development Mentor",
+    role: "Frontend Mentor",
     company: "Genesys Tech Hub",
     description:
       "Mentored a group of tech enthusiasts on frontend development, focusing on React, JavaScript, HTML, and CSS. Guided them through building projects, emphasizing best practices, component-based architecture, and responsive design. Introduced and explained the use of UCML diagrams for structuring and planning the projects. Facilitated Scrum ceremonies, such as sprint planning and retrospectives, to promote agile development practices.",
