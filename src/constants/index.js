@@ -107,4 +107,3 @@ export const CONTACT = {
   phoneNo: "+234 8167 5497 03 ",
   email: "emmanuelnwaforce@gmail.com",
 };
-
