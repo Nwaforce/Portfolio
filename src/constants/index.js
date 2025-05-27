@@ -35,7 +35,7 @@ export const EXPERIENCES = [
     company: "Genesys Tech Hub",
     description: `Designed and developed user interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Javascript", "React.js"],
-  },
+  }, 
   // {
   //   year: "2021 - 2022",
   //   role: "Full Stack Developer",
