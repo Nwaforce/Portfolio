@@ -15,7 +15,8 @@ const About = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="w-full lg:w-1/2 lg:p-8"
-        >b 
+        >
+          
           <div className="flex items-center justify-center">
             <img className="rounded-2xl" src={aboutImg} alt="about" />
           </div>
